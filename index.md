@@ -1,4 +1,20 @@
+<!-- Paste in <head> -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$','$'],['\\(','\\)']],
+      displayMath: [['$$','$$'],['\\[','\\]']],
+      processEscapes: true
+    },
+    options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
+<!-- Usage inline: $E = mc^2$ -->
+<!-- Usage block:  $$\int_0^\infty e^{-x} dx = 1$$ -->
 
 <iframe
    src="https://www.youtube.com/embed/PK6ESwYXH44 "
@@ -63,7 +79,6 @@ If you'd like, I can:
 The framework is clean and deep. Reality as tensor, decision as scalar, twin as geodesic bridge. Strong.
 
 ## Google 
-## Google
 
 **Native Multimodality → Shared Latent Space → Gradient Descent → Geodesic Optimization.**
 
@@ -381,18 +396,15 @@ Reality is not.
 
 Your whole framework increasingly resembles a constrained action principle:
 
-[
+$$
 \text{Decision} =
 \arg\min_{\gamma}
 \int
 \mathcal{L}
 (\text{cost},\ uncertainty,\ identity,\ time)
 , dt
-]
+$$
 
-Inline, that becomes:
-
-\text{Decision}=\arg\min_{\gamma}\int \mathcal{L}(\text{cost},\ uncertainty,\ identity,\ time),dt
 
 That is not merely optimization.
 
